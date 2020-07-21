@@ -100,7 +100,7 @@ def check_winnings(numbers1, numbers2):
 def winnings_money(config: Config, numbers_hit):
     win_money = 0
 
-    if len(numbers_hit) > 1:
+    if len(numbers_hit) > 2:
         print(f'You win {config.money}!')
         win_money += config.money
     else:
